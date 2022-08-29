@@ -1,4 +1,4 @@
-body{
+body {
     background-color: rgb(227, 237, 207);
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@ body{
     font-family: 'Silkscreen', Arial, Helvetica, sans-serif;
 }
 
-.wrapper{
+.wrapper {
     margin: auto;
     width: 50%;
     height: 500px;
@@ -18,26 +18,57 @@ body{
     -o-border-radius: 10px;
 }
 
-h1{
+h1 {
     text-align: center;
     font-size: 50px;
 }
 
-#counter{
+#counter {
     font-size: 100px;
 }
 
-.btn-container{
+.btn-container {
     margin: auto;
     width: 50%;
 }
 
-i{
+i {
     font-size: 40px;
     cursor: pointer;
 }
 
-.fa-plus{
+.fa-plus {
     float: right;
 }
 
+/* media querry */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .wrapper{
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    #counter {
+        font-size: 70px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .wrapper{
+        width: 90%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .wrapper{
+        width: 80%;
+    }
+}
