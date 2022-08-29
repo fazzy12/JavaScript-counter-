@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(227, 237, 207);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Silkscreen', Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    margin: auto;
+    width: 50%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.265);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+#counter{
+    font-size: 100px;
+}
+
+.btn-container{
+    margin: auto;
+    width: 50%;
+}
+
+i{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.fa-plus{
+    float: right;
+}
+
